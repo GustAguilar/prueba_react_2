@@ -1,0 +1,80 @@
+.contenedorHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    padding: 1% 0 1% 0;
+    margin-top: 3%;
+}
+
+.texto {
+    color: white;
+    font-size: 300%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.pizzaCards {
+    display: grid;
+    gap: 6%;
+    width: 80%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.grid-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;    
+}
+
+.card {
+    margin: 3% 0%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-size: larger;
+}
+
+.card:hover {
+    box-shadow: 02px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cardInfo h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around; 
+    padding: 4%;
+}
+
+.botones button {
+    background-color: #ff0022;
+    color: white;
+    padding: 3% 6%;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ac061c;
+}
+

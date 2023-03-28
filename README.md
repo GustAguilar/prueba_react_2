@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+se limpia el codigo base. 
+
+se crea carpeta components en src con 2 carpetas, assets y views.
+
+se crean las vistas (carrito.jsx, home.jsx y pizza.jsx) en views. 
+
+se pega el archivo .json descomprimido del apoyo desafio en public. 
+
+se crea el navbar, importando la propiedad NavLink desde react router dom para el manejo de las vistas. 
+
+se crea el archivo "myContext.js" y se importa en app.js
+
+se genera la variable "endpoint" con la ruta del archivo pizzas.json 
+
+se usan las propiedades useEffect y useState para recorrer el archivo y guardarlo en un arreglo que en inicio se declara vacio. 
+
+se envia dicho arreglo como contexto a traves del provider en una variable "resultadoPizza"

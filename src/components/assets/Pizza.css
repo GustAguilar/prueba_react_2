@@ -1,0 +1,56 @@
+.pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pizzaCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    width: 80%;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.pizzaCard img {
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.pizzaCard h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.infoPizzaCard {
+    margin: 0% 3%;
+}
+
+.ingredientes {
+    margin-left: 6%;
+}
+
+.botonesPizza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.botonesPizza button {
+    background-color: #ff0022;
+    color: white;
+    padding: 1% 3%;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ac061c;
+}

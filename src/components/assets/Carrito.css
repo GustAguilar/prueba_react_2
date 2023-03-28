@@ -1,0 +1,61 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.carrito { 
+    margin-top: 3%;
+    padding: 3%;
+    background-color: lightgray;
+    width: 60%;
+    
+}
+
+.carrito button {
+    background-color: rgb(6, 168, 6);
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 5px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.pizzaCarrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3%;
+}
+
+.pizzaCarrito img {
+    width: 10%;
+    margin-right: 3%;
+}
+
+.imagen {
+    display: flex;
+}
+
+.nombre {
+    font-size: x-large;
+    text-transform: capitalize;
+
+}
+
+.precio {
+    font-size: x-large;
+    color: green;
+}
+
+.textoCarrito {
+    background-color: white;
+    padding: 3%;
+
+}
